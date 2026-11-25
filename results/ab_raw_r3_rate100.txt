@@ -1,0 +1,1620 @@
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        220 bytes
+
+Concurrency Level:      25
+Time taken for tests:   47.163 seconds
+Complete requests:      100
+Failed requests:        11
+   (Connect: 0, Receive: 0, Length: 11, Exceptions: 0)
+Non-2xx responses:      11
+Total transferred:      34112 bytes
+Total body sent:        18700
+HTML transferred:       21270 bytes
+Requests per second:    2.12 [#/sec] (mean)
+Time per request:       11790.812 [ms] (mean)
+Time per request:       471.632 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.71 [Kbytes/sec] received
+                        0.39 kb/s sent
+                        1.09 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.5      1       3
+Processing:  1375 9010 7348.4   7381   28200
+Waiting:      191 7698 7161.0   6119   26093
+Total:       1376 9011 7348.5   7381   28200
+
+Percentage of the requests served within a certain time (ms)
+  50%   7381
+  66%   9598
+  75%  13609
+  80%  15892
+  90%  21302
+  95%  26204
+  98%  27192
+  99%  28200
+ 100%  28200 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        220 bytes
+
+Concurrency Level:      25
+Time taken for tests:   50.560 seconds
+Complete requests:      100
+Failed requests:        35
+   (Connect: 0, Receive: 0, Length: 35, Exceptions: 0)
+Non-2xx responses:      35
+Total transferred:      33620 bytes
+Total body sent:        18600
+HTML transferred:       20350 bytes
+Requests per second:    1.98 [#/sec] (mean)
+Time per request:       12640.052 [ms] (mean)
+Time per request:       505.602 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.65 [Kbytes/sec] received
+                        0.36 kb/s sent
+                        1.01 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.5      1       3
+Processing:  1736 10544 7413.8   9497   27788
+Waiting:      421 9146 7190.2   8284   25699
+Total:       1736 10545 7413.8   9498   27790
+
+Percentage of the requests served within a certain time (ms)
+  50%   9498
+  66%  11119
+  75%  12287
+  80%  14705
+  90%  26308
+  95%  26450
+  98%  27198
+  99%  27790
+ 100%  27790 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        223 bytes
+
+Concurrency Level:      25
+Time taken for tests:   45.176 seconds
+Complete requests:      100
+Failed requests:        44
+   (Connect: 0, Receive: 0, Length: 44, Exceptions: 0)
+Non-2xx responses:      44
+Total transferred:      34016 bytes
+Total body sent:        18800
+HTML transferred:       20448 bytes
+Requests per second:    2.21 [#/sec] (mean)
+Time per request:       11293.938 [ms] (mean)
+Time per request:       451.758 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.74 [Kbytes/sec] received
+                        0.41 kb/s sent
+                        1.14 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.0      1       6
+Processing:  1299 10047 6952.4   7680   29071
+Waiting:      190 8705 6867.4   6465   26882
+Total:       1301 10048 6952.4   7681   29071
+
+Percentage of the requests served within a certain time (ms)
+  50%   7681
+  66%  10291
+  75%  15288
+  80%  15699
+  90%  21801
+  95%  26193
+  98%  28406
+  99%  29071
+ 100%  29071 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        217 bytes
+
+Concurrency Level:      25
+Time taken for tests:   78.773 seconds
+Complete requests:      100
+Failed requests:        63
+   (Connect: 0, Receive: 0, Length: 63, Exceptions: 0)
+Non-2xx responses:      63
+Total transferred:      33165 bytes
+Total body sent:        18500
+HTML transferred:       19319 bytes
+Requests per second:    1.27 [#/sec] (mean)
+Time per request:       19693.153 [ms] (mean)
+Time per request:       787.726 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.41 [Kbytes/sec] received
+                        0.23 kb/s sent
+                        0.64 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       3
+Processing:  1399 13873 7143.7  13008   28283
+Waiting:      316 12345 6911.1  11163   26200
+Total:       1401 13874 7143.6  13008   28284
+
+Percentage of the requests served within a certain time (ms)
+  50%  13008
+  66%  15443
+  75%  16715
+  80%  21789
+  90%  26393
+  95%  27286
+  98%  28281
+  99%  28284
+ 100%  28284 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        219 bytes
+
+Concurrency Level:      25
+Time taken for tests:   70.281 seconds
+Complete requests:      100
+Failed requests:        74
+   (Connect: 0, Receive: 0, Length: 74, Exceptions: 0)
+Non-2xx responses:      74
+Total transferred:      33522 bytes
+Total body sent:        18600
+HTML transferred:       19314 bytes
+Requests per second:    1.42 [#/sec] (mean)
+Time per request:       17570.369 [ms] (mean)
+Time per request:       702.815 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.47 [Kbytes/sec] received
+                        0.26 kb/s sent
+                        0.72 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.0      1       6
+Processing:  2104 12424 6722.2  12512   27385
+Waiting:      886 10872 6646.7  10803   25977
+Total:       2104 12425 6722.2  12512   27386
+
+Percentage of the requests served within a certain time (ms)
+  50%  12512
+  66%  14012
+  75%  16264
+  80%  16692
+  90%  23519
+  95%  26398
+  98%  27299
+  99%  27386
+ 100%  27386 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        222 bytes
+
+Concurrency Level:      25
+Time taken for tests:   64.070 seconds
+Complete requests:      100
+Failed requests:        74
+   (Connect: 0, Receive: 0, Length: 74, Exceptions: 0)
+Non-2xx responses:      74
+Total transferred:      34140 bytes
+Total body sent:        18700
+HTML transferred:       19752 bytes
+Requests per second:    1.56 [#/sec] (mean)
+Time per request:       16017.574 [ms] (mean)
+Time per request:       640.703 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.52 [Kbytes/sec] received
+                        0.29 kb/s sent
+                        0.81 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       4
+Processing:  1391 10546 5182.3  11697   21287
+Waiting:      179 9114 5167.7  10588   19184
+Total:       1392 10547 5182.4  11697   21288
+
+Percentage of the requests served within a certain time (ms)
+  50%  11697
+  66%  12397
+  75%  13490
+  80%  14527
+  90%  17801
+  95%  18223
+  98%  21269
+  99%  21288
+ 100%  21288 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        221 bytes
+
+Concurrency Level:      25
+Time taken for tests:   89.675 seconds
+Complete requests:      100
+Failed requests:        80
+   (Connect: 0, Receive: 0, Length: 80, Exceptions: 0)
+Non-2xx responses:      80
+Total transferred:      33520 bytes
+Total body sent:        18600
+HTML transferred:       19180 bytes
+Requests per second:    1.12 [#/sec] (mean)
+Time per request:       22418.858 [ms] (mean)
+Time per request:       896.754 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.37 [Kbytes/sec] received
+                        0.20 kb/s sent
+                        0.57 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.3      1       9
+Processing:  1906 15094 8906.4  12905   38693
+Waiting:      580 13540 8831.4  11404   35580
+Total:       1906 15095 8906.6  12907   38694
+
+Percentage of the requests served within a certain time (ms)
+  50%  12907
+  66%  14591
+  75%  23491
+  80%  26182
+  90%  27473
+  95%  31676
+  98%  35954
+  99%  38694
+ 100%  38694 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        220 bytes
+
+Concurrency Level:      25
+Time taken for tests:   53.884 seconds
+Complete requests:      100
+Failed requests:        57
+   (Connect: 0, Receive: 0, Length: 57, Exceptions: 0)
+Non-2xx responses:      57
+Total transferred:      33444 bytes
+Total body sent:        18600
+HTML transferred:       19690 bytes
+Requests per second:    1.86 [#/sec] (mean)
+Time per request:       13471.119 [ms] (mean)
+Time per request:       538.845 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.61 [Kbytes/sec] received
+                        0.34 kb/s sent
+                        0.94 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.6      1       4
+Processing:  1719 11872 7320.7  11193   29092
+Waiting:      183 10416 7121.7  10086   26913
+Total:       1720 11873 7320.6  11194   29094
+
+Percentage of the requests served within a certain time (ms)
+  50%  11194
+  66%  13150
+  75%  15019
+  80%  16078
+  90%  24910
+  95%  26305
+  98%  29020
+  99%  29094
+ 100%  29094 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        219 bytes
+
+Concurrency Level:      25
+Time taken for tests:   109.708 seconds
+Complete requests:      100
+Failed requests:        73
+   (Connect: 0, Receive: 0, Length: 73, Exceptions: 0)
+Non-2xx responses:      73
+Total transferred:      32509 bytes
+Total body sent:        18600
+HTML transferred:       18663 bytes
+Requests per second:    0.91 [#/sec] (mean)
+Time per request:       27426.904 [ms] (mean)
+Time per request:       1097.076 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.29 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.45 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.9      1      19
+Processing:  1418 23013 12635.5  24394   52881
+Waiting:      327 21067 12393.1  21400   51697
+Total:       1419 23014 12635.2  24395   52881
+
+Percentage of the requests served within a certain time (ms)
+  50%  24395
+  66%  25666
+  75%  31333
+  80%  34731
+  90%  43686
+  95%  47276
+  98%  47919
+  99%  52881
+ 100%  52881 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        221 bytes
+
+Concurrency Level:      25
+Time taken for tests:   108.617 seconds
+Complete requests:      100
+Failed requests:        89
+   (Connect: 0, Receive: 0, Length: 89, Exceptions: 0)
+Non-2xx responses:      89
+Total transferred:      31459 bytes
+Total body sent:        18600
+HTML transferred:       17581 bytes
+Requests per second:    0.92 [#/sec] (mean)
+Time per request:       27154.183 [ms] (mean)
+Time per request:       1086.167 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.28 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.45 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       4
+Processing:  1098 23504 16765.7  23811   56357
+Waiting:       81 21504 16245.8  21790   51834
+Total:       1100 23505 16765.8  23812   56359
+
+Percentage of the requests served within a certain time (ms)
+  50%  23812
+  66%  27682
+  75%  31226
+  80%  40078
+  90%  52976
+  95%  55980
+  98%  56281
+  99%  56359
+ 100%  56359 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        219 bytes
+
+Concurrency Level:      25
+Time taken for tests:   107.690 seconds
+Complete requests:      100
+Failed requests:        74
+   (Connect: 0, Receive: 0, Length: 74, Exceptions: 0)
+Non-2xx responses:      74
+Total transferred:      32862 bytes
+Total body sent:        18600
+HTML transferred:       18874 bytes
+Requests per second:    0.93 [#/sec] (mean)
+Time per request:       26922.422 [ms] (mean)
+Time per request:       1076.897 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.30 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.47 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.6      1      21
+Processing:  2609 20905 12233.3  14797   52828
+Waiting:      801 19085 11950.7  12798   51798
+Total:       2609 20907 12233.7  14797   52828
+
+Percentage of the requests served within a certain time (ms)
+  50%  14797
+  66%  26745
+  75%  26952
+  80%  32171
+  90%  39398
+  95%  46980
+  98%  47994
+  99%  52828
+ 100%  52828 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        218 bytes
+
+Concurrency Level:      25
+Time taken for tests:   106.704 seconds
+Complete requests:      100
+Failed requests:        74
+   (Connect: 0, Receive: 0, Length: 74, Exceptions: 0)
+Non-2xx responses:      74
+Total transferred:      32536 bytes
+Total body sent:        18600
+HTML transferred:       18648 bytes
+Requests per second:    0.94 [#/sec] (mean)
+Time per request:       26675.998 [ms] (mean)
+Time per request:       1067.040 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.30 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.47 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.4      1      12
+Processing:  1399 23215 13928.1  19279   56059
+Waiting:      119 21257 13444.0  17678   51786
+Total:       1399 23216 13928.1  19281   56060
+
+Percentage of the requests served within a certain time (ms)
+  50%  19281
+  66%  25512
+  75%  31044
+  80%  39973
+  90%  47095
+  95%  49396
+  98%  52819
+  99%  56060
+ 100%  56060 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        219 bytes
+
+Concurrency Level:      25
+Time taken for tests:   105.660 seconds
+Complete requests:      100
+Failed requests:        85
+   (Connect: 0, Receive: 0, Length: 85, Exceptions: 0)
+Non-2xx responses:      85
+Total transferred:      31525 bytes
+Total body sent:        18600
+HTML transferred:       17715 bytes
+Requests per second:    0.95 [#/sec] (mean)
+Time per request:       26415.084 [ms] (mean)
+Time per request:       1056.603 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.29 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.46 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   3.6      1      34
+Processing:  1032 24246 14253.8  25241   54376
+Waiting:       25 22195 13783.8  23184   51691
+Total:       1033 24247 14253.9  25242   54378
+
+Percentage of the requests served within a certain time (ms)
+  50%  25242
+  66%  29092
+  75%  31687
+  80%  34473
+  90%  46591
+  95%  52721
+  98%  54175
+  99%  54378
+ 100%  54378 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        222 bytes
+
+Concurrency Level:      25
+Time taken for tests:   104.682 seconds
+Complete requests:      100
+Failed requests:        89
+   (Connect: 0, Receive: 0, Length: 89, Exceptions: 0)
+Non-2xx responses:      89
+Total transferred:      31410 bytes
+Total body sent:        18700
+HTML transferred:       17552 bytes
+Requests per second:    0.96 [#/sec] (mean)
+Time per request:       26170.383 [ms] (mean)
+Time per request:       1046.815 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.29 [Kbytes/sec] received
+                        0.17 kb/s sent
+                        0.47 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.0      1       5
+Processing:  1100 23623 15925.0  24234   56296
+Waiting:       20 21695 15619.5  22284   51702
+Total:       1100 23624 15925.2  24234   56299
+
+Percentage of the requests served within a certain time (ms)
+  50%  24234
+  66%  28089
+  75%  31764
+  80%  34734
+  90%  52703
+  95%  53702
+  98%  56178
+  99%  56299
+ 100%  56299 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 51 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        221 bytes
+
+Concurrency Level:      25
+Time taken for tests:   102.702 seconds
+Complete requests:      100
+Failed requests:        98
+   (Connect: 0, Receive: 0, Length: 98, Exceptions: 0)
+Non-2xx responses:      98
+Total transferred:      32578 bytes
+Total body sent:        18800
+HTML transferred:       18102 bytes
+Requests per second:    0.97 [#/sec] (mean)
+Time per request:       25675.621 [ms] (mean)
+Time per request:       1027.025 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.31 [Kbytes/sec] received
+                        0.18 kb/s sent
+                        0.49 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      1       5
+Processing:  6795 21576 13577.4  17693   49995
+Waiting:     5080 19241 12405.8  16379   45831
+Total:       6795 21577 13577.5  17694   49995
+
+Percentage of the requests served within a certain time (ms)
+  50%  17694
+  66%  24213
+  75%  34635
+  80%  37805
+  90%  45611
+  95%  47398
+  98%  47908
+  99%  49995
+ 100%  49995 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        150 bytes
+
+Concurrency Level:      25
+Time taken for tests:   104.193 seconds
+Complete requests:      100
+Failed requests:        74
+   (Connect: 0, Receive: 0, Length: 74, Exceptions: 0)
+Non-2xx responses:      99
+Total transferred:      32449 bytes
+Total body sent:        18700
+HTML transferred:       17991 bytes
+Requests per second:    0.96 [#/sec] (mean)
+Time per request:       26048.245 [ms] (mean)
+Time per request:       1041.930 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.30 [Kbytes/sec] received
+                        0.18 kb/s sent
+                        0.48 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       4
+Processing:  1241 19865 13295.9  23684   40939
+Waiting:      108 17724 12075.7  22273   36200
+Total:       1241 19866 13296.0  23685   40940
+
+Percentage of the requests served within a certain time (ms)
+  50%  23685
+  66%  26490
+  75%  32523
+  80%  36239
+  90%  37795
+  95%  39320
+  98%  40899
+  99%  40940
+ 100%  40940 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 76 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        220 bytes
+
+Concurrency Level:      25
+Time taken for tests:   102.268 seconds
+Complete requests:      100
+Failed requests:        99
+   (Connect: 0, Receive: 0, Length: 99, Exceptions: 0)
+Non-2xx responses:      99
+Total transferred:      32508 bytes
+Total body sent:        18700
+HTML transferred:       18030 bytes
+Requests per second:    0.98 [#/sec] (mean)
+Time per request:       25567.008 [ms] (mean)
+Time per request:       1022.680 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.31 [Kbytes/sec] received
+                        0.18 kb/s sent
+                        0.49 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2   3.3      1      24
+Processing:  1255 20241 15870.9  19613   48038
+Waiting:      120 18051 14373.0  17489   43084
+Total:       1276 20242 15870.2  19615   48042
+
+Percentage of the requests served within a certain time (ms)
+  50%  19615
+  66%  22770
+  75%  34827
+  80%  43685
+  90%  45663
+  95%  46513
+  98%  48038
+  99%  48042
+ 100%  48042 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   30.270 seconds
+Complete requests:      100
+Failed requests:        0
+Non-2xx responses:      100
+Total transferred:      34000 bytes
+Total body sent:        18700
+HTML transferred:       19000 bytes
+Requests per second:    3.30 [#/sec] (mean)
+Time per request:       7567.554 [ms] (mean)
+Time per request:       302.702 [ms] (mean, across all concurrent requests)
+Transfer rate:          1.10 [Kbytes/sec] received
+                        0.60 kb/s sent
+                        1.70 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      1       6
+Processing:  1351 6512 4087.4   4188   14627
+Waiting:      150 5086 4133.7   2583   13091
+Total:       1351 6512 4087.3   4189   14627
+
+Percentage of the requests served within a certain time (ms)
+  50%   4189
+  66%   9193
+  75%  10123
+  80%  10892
+  90%  12400
+  95%  12987
+  98%  14037
+  99%  14627
+ 100%  14627 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   49.761 seconds
+Complete requests:      100
+Failed requests:        0
+Non-2xx responses:      100
+Total transferred:      34000 bytes
+Total body sent:        18600
+HTML transferred:       19000 bytes
+Requests per second:    2.01 [#/sec] (mean)
+Time per request:       12440.310 [ms] (mean)
+Time per request:       497.612 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.67 [Kbytes/sec] received
+                        0.37 kb/s sent
+                        1.03 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       5
+Processing:  1765 9351 6193.4   9298   24399
+Waiting:      459 7814 6111.3   7910   22917
+Total:       1765 9351 6193.4   9298   24401
+
+Percentage of the requests served within a certain time (ms)
+  50%   9298
+  66%  11799
+  75%  12795
+  80%  13897
+  90%  19273
+  95%  22595
+  98%  24114
+  99%  24401
+ 100%  24401 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   89.681 seconds
+Complete requests:      100
+Failed requests:        24
+   (Connect: 0, Receive: 0, Length: 24, Exceptions: 0)
+Non-2xx responses:      94
+Total transferred:      32968 bytes
+Total body sent:        18700
+HTML transferred:       18460 bytes
+Requests per second:    1.12 [#/sec] (mean)
+Time per request:       22420.174 [ms] (mean)
+Time per request:       896.807 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.36 [Kbytes/sec] received
+                        0.20 kb/s sent
+                        0.56 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.0      1       7
+Processing:  3825 20392 16736.5  13592   56076
+Waiting:     2459 18398 15907.3  11791   51695
+Total:       3826 20393 16736.5  13592   56076
+
+Percentage of the requests served within a certain time (ms)
+  50%  13592
+  66%  18608
+  75%  25484
+  80%  45610
+  90%  49283
+  95%  50904
+  98%  55986
+  99%  56076
+ 100%  56076 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 76 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   87.690 seconds
+Complete requests:      100
+Failed requests:        26
+   (Connect: 0, Receive: 0, Length: 26, Exceptions: 0)
+Non-2xx responses:      81
+Total transferred:      33732 bytes
+Total body sent:        18800
+HTML transferred:       19290 bytes
+Requests per second:    1.14 [#/sec] (mean)
+Time per request:       21922.532 [ms] (mean)
+Time per request:       876.901 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.38 [Kbytes/sec] received
+                        0.21 kb/s sent
+                        0.59 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.9      1       6
+Processing:  1218 18678 15998.5  12796   55993
+Waiting:      123 17017 15878.4  11194   52150
+Total:       1219 18679 15998.4  12796   55994
+
+Percentage of the requests served within a certain time (ms)
+  50%  12796
+  66%  15641
+  75%  33476
+  80%  40286
+  90%  46199
+  95%  48181
+  98%  53446
+  99%  55994
+ 100%  55994 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 51 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 51 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   84.613 seconds
+Complete requests:      100
+Failed requests:        27
+   (Connect: 0, Receive: 0, Length: 27, Exceptions: 0)
+Non-2xx responses:      75
+Total transferred:      34055 bytes
+Total body sent:        18600
+HTML transferred:       19645 bytes
+Requests per second:    1.18 [#/sec] (mean)
+Time per request:       21153.337 [ms] (mean)
+Time per request:       846.133 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.39 [Kbytes/sec] received
+                        0.21 kb/s sent
+                        0.61 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.8      1       5
+Processing:  1181 15183 16616.3  13086   47374
+Waiting:       85 13788 16555.1  11169   46369
+Total:       1182 15184 16616.2  13087   47375
+
+Percentage of the requests served within a certain time (ms)
+  50%  13087
+  66%  13486
+  75%  32527
+  80%  39675
+  90%  43802
+  95%  44892
+  98%  46887
+  99%  47375
+ 100%  47375 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   83.568 seconds
+Complete requests:      100
+Failed requests:        36
+   (Connect: 0, Receive: 0, Length: 36, Exceptions: 0)
+Non-2xx responses:      81
+Total transferred:      33113 bytes
+Total body sent:        18600
+HTML transferred:       18871 bytes
+Requests per second:    1.20 [#/sec] (mean)
+Time per request:       20892.030 [ms] (mean)
+Time per request:       835.681 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.39 [Kbytes/sec] received
+                        0.22 kb/s sent
+                        0.60 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.5      1      11
+Processing:  1027 17803 14603.4  13589   48114
+Waiting:       24 15868 14116.5  11589   47112
+Total:       1027 17804 14603.6  13590   48115
+
+Percentage of the requests served within a certain time (ms)
+  50%  13590
+  66%  26772
+  75%  31834
+  80%  33680
+  90%  35211
+  95%  44300
+  98%  47297
+  99%  48115
+ 100%  48115 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   82.272 seconds
+Complete requests:      100
+Failed requests:        31
+   (Connect: 0, Receive: 0, Length: 31, Exceptions: 0)
+Non-2xx responses:      75
+Total transferred:      33740 bytes
+Total body sent:        18500
+HTML transferred:       19410 bytes
+Requests per second:    1.22 [#/sec] (mean)
+Time per request:       20567.989 [ms] (mean)
+Time per request:       822.720 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.40 [Kbytes/sec] received
+                        0.22 kb/s sent
+                        0.62 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   0.7      1       4
+Processing:  1094 16007 16398.5  13258   48528
+Waiting:       89 14446 16274.9  11246   47336
+Total:       1095 16008 16398.5  13258   48528
+
+Percentage of the requests served within a certain time (ms)
+  50%  13258
+  66%  14776
+  75%  31841
+  80%  36217
+  90%  43772
+  95%  45699
+  98%  47564
+  99%  48528
+ 100%  48528 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 26 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   79.744 seconds
+Complete requests:      100
+Failed requests:        31
+   (Connect: 0, Receive: 0, Length: 31, Exceptions: 0)
+Non-2xx responses:      94
+Total transferred:      32536 bytes
+Total body sent:        18600
+HTML transferred:       18168 bytes
+Requests per second:    1.25 [#/sec] (mean)
+Time per request:       19936.086 [ms] (mean)
+Time per request:       797.443 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.40 [Kbytes/sec] received
+                        0.23 kb/s sent
+                        0.63 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.0      1      10
+Processing:  1115 16720 15032.6  25171   37514
+Waiting:      117 14595 13869.9  21019   33993
+Total:       1116 16721 15032.1  25173   37516
+
+Percentage of the requests served within a certain time (ms)
+  50%  25173
+  66%  27969
+  75%  31475
+  80%  34701
+  90%  35973
+  95%  36437
+  98%  37244
+  99%  37516
+ 100%  37516 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   78.779 seconds
+Complete requests:      100
+Failed requests:        26
+   (Connect: 0, Receive: 0, Length: 26, Exceptions: 0)
+Non-2xx responses:      99
+Total transferred:      32506 bytes
+Total body sent:        18700
+HTML transferred:       18028 bytes
+Requests per second:    1.27 [#/sec] (mean)
+Time per request:       19694.703 [ms] (mean)
+Time per request:       787.788 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.40 [Kbytes/sec] received
+                        0.23 kb/s sent
+                        0.63 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   2.1      1      11
+Processing:  1186 16842 15288.4  25376   37839
+Waiting:      143 14740 14064.4  23505   33099
+Total:       1187 16844 15288.0  25377   37840
+
+Percentage of the requests served within a certain time (ms)
+  50%  25377
+  66%  26789
+  75%  33160
+  80%  35991
+  90%  36875
+  95%  37774
+  98%  37824
+  99%  37840
+ 100%  37840 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   77.766 seconds
+Complete requests:      100
+Failed requests:        28
+   (Connect: 0, Receive: 0, Length: 28, Exceptions: 0)
+Non-2xx responses:      96
+Total transferred:      32588 bytes
+Total body sent:        18700
+HTML transferred:       18156 bytes
+Requests per second:    1.29 [#/sec] (mean)
+Time per request:       19441.586 [ms] (mean)
+Time per request:       777.663 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.41 [Kbytes/sec] received
+                        0.23 kb/s sent
+                        0.64 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    2   1.9      1      11
+Processing:  1019 16483 15156.7  13246   47308
+Waiting:       16 14294 14010.2  11388   46297
+Total:       1020 16484 15156.8  13246   47311
+
+Percentage of the requests served within a certain time (ms)
+  50%  13246
+  66%  27540
+  75%  32257
+  80%  34705
+  90%  34800
+  95%  36229
+  98%  36640
+  99%  47311
+ 100%  47311 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...Total of 1 requests completed
+apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient).....done
+
+
+Server Software:        
+Server Hostname:        127.0.0.1
+Server Port:            8080
+
+Document Path:          /api/emi
+Document Length:        190 bytes
+
+Concurrency Level:      25
+Time taken for tests:   66.816 seconds
+Complete requests:      100
+Failed requests:        25
+   (Connect: 0, Receive: 0, Length: 25, Exceptions: 0)
+Non-2xx responses:      100
+Total transferred:      32500 bytes
+Total body sent:        18700
+HTML transferred:       18000 bytes
+Requests per second:    1.50 [#/sec] (mean)
+Time per request:       16703.999 [ms] (mean)
+Time per request:       668.160 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.48 [Kbytes/sec] received
+                        0.27 kb/s sent
+                        0.75 kb/s total
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    1   1.3      1       7
+Processing:  1023 10656 15356.2   1795   36873
+Waiting:       21 8648 13720.1    685   32111
+Total:       1023 10657 15356.1   1795   36874
+
+Percentage of the requests served within a certain time (ms)
+  50%   1795
+  66%   2288
+  75%  34726
+  80%  36814
+  90%  36840
+  95%  36844
+  98%  36870
+  99%  36874
+ 100%  36874 (longest request)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...apr_pollset_poll: The timeout specified has expired (70007)
+
+--- BATCH ---
+This is ApacheBench, Version 2.3 <$Revision$>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)...apr_pollset_poll: The timeout specified has expired (70007)

@@ -1,0 +1,151 @@
+[2026-11-25 15:49:13 | t=0.0s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 13%/50%   1         5         1          21s
+
+[2026-11-25 15:49:29 | t=15.9s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 13%/50%   1         5         1          37s
+
+[2026-11-25 15:49:44 | t=31.7s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 13%/50%   1         5         1          53s
+
+[2026-11-25 15:50:00 | t=47.3s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 13%/50%   1         5         1          68s
+
+[2026-11-25 15:50:16 | t=62.9s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 47%/50%   1         5         1          84s
+
+[2026-11-25 15:50:32 | t=79.2s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 47%/50%   1         5         1          100s
+
+[2026-11-25 15:50:47 | t=94.7s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 47%/50%   1         5         1          116s
+
+[2026-11-25 15:51:04 | t=111.2s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 47%/50%   1         5         1          2m12s
+
+[2026-11-25 15:51:19 | t=126.7s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 57%/50%   1         5         1          2m28s
+
+[2026-11-25 15:51:36 | t=143.6s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 57%/50%   1         5         2          2m45s
+
+[2026-11-25 15:51:52 | t=159.6s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 57%/50%   1         5         2          3m1s
+
+[2026-11-25 15:52:09 | t=176.4s]
+NAME      REFERENCE            TARGETS        MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 57%/50%   1         5         2          3m18s
+
+[2026-11-25 15:52:26 | t=192.8s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          3m34s
+
+[2026-11-25 15:52:42 | t=209.1s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          3m50s
+
+[2026-11-25 15:52:58 | t=225.3s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          4m6s
+
+[2026-11-25 15:53:14 | t=241.2s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          4m23s
+
+[2026-11-25 15:53:30 | t=257.4s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 108%/50%   1         5         2          4m38s
+
+[2026-11-25 15:53:46 | t=273.3s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 108%/50%   1         5         2          4m54s
+
+[2026-11-25 15:54:02 | t=289.3s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 108%/50%   1         5         2          5m10s
+
+[2026-11-25 15:54:18 | t=305.2s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          5m27s
+
+[2026-11-25 15:54:34 | t=321.7s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          5m43s
+
+[2026-11-25 15:54:50 | t=337.5s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          5m58s
+
+[2026-11-25 15:55:06 | t=353.1s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          6m14s
+
+[2026-11-25 15:55:22 | t=368.9s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          6m30s
+
+[2026-11-25 15:55:38 | t=384.8s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          6m46s
+
+[2026-11-25 15:55:54 | t=401.4s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          7m3s
+
+[2026-11-25 15:56:10 | t=417.5s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          7m19s
+
+[2026-11-25 15:56:26 | t=433.2s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         2          7m35s
+
+[2026-11-25 15:56:42 | t=449.5s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 211%/50%   1         5         2          7m51s
+
+[2026-11-25 15:56:59 | t=466.0s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 211%/50%   1         5         4          8m7s
+
+[2026-11-25 15:57:15 | t=482.1s]
+NAME      REFERENCE            TARGETS         MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: 211%/50%   1         5         5          8m24s
+
+[2026-11-25 15:57:32 | t=499.1s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          8m41s
+
+[2026-11-25 15:57:48 | t=515.5s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          8m57s
+
+[2026-11-25 15:58:04 | t=531.7s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          9m13s
+
+[2026-11-25 15:58:20 | t=547.7s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          9m29s
+
+[2026-11-25 15:58:37 | t=564.0s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          9m45s
+
+[2026-11-25 15:58:53 | t=579.9s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          10m
+
+[2026-11-25 15:59:09 | t=596.5s]
+NAME      REFERENCE            TARGETS              MINPODS   MAXPODS   REPLICAS   AGE
+emi-web   Deployment/emi-web   cpu: <unknown>/50%   1         5         5          10m

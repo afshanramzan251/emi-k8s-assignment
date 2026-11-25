@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan EMI Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container py-5">
+    <h2 class="mb-4 text-center">Loan EMI Calculator</h2>
+
+    <div class="row g-4">
+        <!-- Input Form -->
+        <div class="col-md-5">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">Calculate EMI</div>
+                <div class="card-body">
+                    <div id="errorAlert" class="alert alert-danger d-none"></div>
+                    <form id="emiForm" novalidate>
+                        <div class="mb-3">
+                            <label for="principal" class="form-label">Loan Amount (P)</label>
+                            <input type="number" step="any" min="0.01" class="form-control" id="principal" placeholder="e.g. 500000" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="rate" class="form-label">Annual Interest Rate (%)</label>
+                            <input type="number" step="any" min="0.01" class="form-control" id="rate" placeholder="e.g. 12" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="months" class="form-label">Tenure (Months)</label>
+                            <input type="number" step="1" min="1" class="form-control" id="months" placeholder="e.g. 24" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Calculate EMI</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Panel -->
+        <div class="col-md-7">
+            <div class="card shadow-sm h-100">
+                <div class="card-header bg-success text-white">Calculation Result</div>
+                <div class="card-body" id="resultPanel">
+                    <p class="text-muted">Submit the form to see your monthly EMI breakdown.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History Table -->
+    <div class="card shadow-sm mt-4">
+        <div class="card-header bg-dark text-white">Last 10 Calculations</div>
+        <div class="card-body table-responsive">
+            <table class="table table-striped table-hover mb-0">
+                <thead>
+                    <tr>
+                        <th>Principal (P)</th>
+                        <th>Rate (%)</th>
+                        <th>Months (n)</th>
+                        <th>Monthly EMI</th>
+                        <th>Served By (Pod)</th>
+                        <th>Created At</th>
+                    </tr>
+                </thead>
+                <tbody id="historyBody">
+                    <tr><td colspan="6" class="text-center text-muted">Loading...</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="text-center text-muted mt-4">
+        <small>DS-584 Cloud Computing | Kubernetes EMI App v1.0</small>
+    </footer>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    function loadHistory() {
+        $.get("/api/history", function (data) {
+            const tbody = $("#historyBody");
+            tbody.empty();
+            if (!data.length) {
+                tbody.append('<tr><td colspan="6" class="text-center text-muted">No calculations yet.</td></tr>');
+                return;
+            }
+            data.forEach(item => {
+                tbody.append(`
+                    <tr>
+                        <td>${Number(item.principal).toLocaleString()}</td>
+                        <td>${item.rate}%</td>
+                        <td>${item.months}</td>
+                        <td><strong>${Number(item.emi).toLocaleString()}</strong></td>
+                        <td><span class="badge bg-secondary">${item.servedBy}</span></td>
+                        <td>${item.createdAt}</td>
+                    </tr>
+                `);
+            });
+        });
+    }
+
+    $(document).ready(function () {
+        loadHistory();
+
+        $("#emiForm").on("submit", function (e) {
+            e.preventDefault();
+            $("#errorAlert").addClass("d-none").text("");
+
+            const principal = parseFloat($("#principal").val());
+            const rate = parseFloat($("#rate").val());
+            const months = parseInt($("#months").val(), 10);
+
+            // Client-side validation
+            if (isNaN(principal) || principal <= 0 || isNaN(rate) || rate <= 0 || isNaN(months) || months <= 0) {
+                $("#errorAlert").removeClass("d-none").text("Please enter positive numbers for all fields.");
+                return;
+            }
+
+            $.ajax({
+                url: "/api/emi",
+                method: "POST",
+                contentType: "application/json",
+                data: JSON.stringify({ principal, rate, months }),
+                success: function (res) {
+                    $("#resultPanel").html(`
+                        <h3 class="text-success mb-3">Monthly EMI: ${res.emi.toLocaleString()}</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Principal Amount:</span><strong>${res.principal.toLocaleString()}</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total Interest:</span><strong>${res.totalInterest.toLocaleString()}</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Total Payment:</span><strong>${res.totalPayment.toLocaleString()}</strong>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Served By (Pod Name):</span><code>${res.servedBy}</code>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Pod IP Address:</span><code>${res.podIp}</code>
+                            </li>
+                        </ul>
+                    `);
+                    loadHistory();
+                },
+                error: function (xhr) {
+                    const msg = xhr.responseJSON?.error || "Something went wrong.";
+                    $("#errorAlert").removeClass("d-none").text(msg);
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
